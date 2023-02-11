@@ -82,6 +82,6 @@ exit_btn = Button(frame3,text='Exit',command=lambda: root.destroy())
 exit_btn.pack(side=RIGHT)
 
 label=weight_lb = Label(frame,text="PS:切勿填寫假資料，將會導致數據計算錯誤")
-label.grid(row=9, column=2, pady=10)
+label.grid(row=9, column=2, pady=20)
 
 root.mainloop()
